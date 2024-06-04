@@ -1,0 +1,32 @@
+{
+  "name": "develop-utils",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "codeonquer",
+  "repository": {
+    "url": "https://github.com/codeonquer/develop-utils"
+  },
+  "workspaces": [
+    "./packages/*"
+  ],
+  "scripts": {
+    "prepare": "husky",
+    "test": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^2.0.0",
+    "editorconfig": "^2.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "globals": "^15.0.0",
+    "husky": "^9.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^7.0.0"
+  }
+}

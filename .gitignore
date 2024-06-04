@@ -1,0 +1,17 @@
+# Exclude macOS Finder (System Explorer) View States
+.DS_Store
+
+# vscode
+# .vscode
+.vscode/settings.json
+# .vscode/launch.json
+
+# Intellij
+*.iml
+.idea
+
+# npm
+node_modules
+
+# Exclude sourcemaps
+*.map
